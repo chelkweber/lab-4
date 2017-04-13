@@ -1,0 +1,20 @@
+#main-page-jumbo {
+    background: url(../img/jumbotron.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+  }
+
+.jumbotron {
+    background-color: #0AD3FF;
+}
+
+#side-bar {
+    background-color: #C0FDFB;
+    padding: 0% 2% 2% 2%;
+}
+
+#feature img {
+    width: 30%;
+    float: right;
+}

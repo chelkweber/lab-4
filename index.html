@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en" class="bootstrap">
+<head>
+    <meta charst="ut-i">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title>Bootstrap Blog</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <div class="jumbotron" id="main-page-jumbo">
+        <div class="container text-center" id="header">
+            <h1>Travel</h1>
+            <a href="#main"><button type="button" class="btn btn-info">Enter Site</button></a>
+        </div>
+    </div>
+    <div class="container-fluid" id="main">
+        <div class="row">
+            <div class="col-sm-4" id="side-bar">
+                <div id="nav">
+                    <h2>Recent Trips</h2>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="nyc-page/index.html">New York City</a></li>
+                        <li><a href="vancover-page/index.html">Vancouver</a></li>
+                        <li><a href="nola-page/index.html">New Orleans</a></li>
+                    </ul>
+                </div>
+                
+                <div id="comment-form">
+                    <h2>Feedback</h2>
+                    <form>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="name" type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                            <input id="msg" type="text" class="form-control" name="msg" placeholder="Message">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" checked />Subscribe</label>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        
+            <div class="col-sm-8" id="main-blog">
+                <div class="row">
+                    <div class="col-xs-12" id="feature">
+                        <h3>Honolulu, HI</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in lectus at nulla mattis auctor. Vestibulum eros arcu, pretium ac ex sed, fringilla laoreet neque. Quisque rhoncus dolor ac tellus consectetur, vel pellentesque libero vestibulum. Nam faucibus risus sed erat cursus dictum. Integer lobortis ante vel semper eleifend. Suspendisse suscipit est et accumsan scelerisque. Ut nibh tellus, faucibus eget sodales sed, tristique sit amet risus.</p>
+                        
+                        <img class="img-rounded" src="img/stairway-to-heaven.JPG" alt="Stairway to Heaven">
+
+                        <p>Donec finibus posuere risus nec vehicula. Aenean faucibus quam vel bibendum ultricies. Maecenas vel metus ex. In bibendum tincidunt dolor vel faucibus. Vestibulum egestas accumsan lacus. Sed felis ipsum, euismod quis justo quis, tristique elementum tellus.</p>
+
+                        <p>Aenean vulputate nulla lorem, in vestibulum ante sodales a. Aenean nec lacus risus. Donec hendrerit, augue a vestibulum mattis, justo felis imperdiet metus, sed rhoncus odio odio sit amet odio. Maecenas ut risus arcu. In eros neque, maximus lacinia consequat ut, luctus ut sem. Nulla facilisi. Nullam venenatis eros quis sem cursus viverra vitae ut magna.</p>
+                             
+                        <p>Donec finibus posuere risus nec vehicula. Aenean faucibus quam vel bibendum ultricies. Maecenas vel metus ex. In bibendum tincidunt dolor vel faucibus. Vestibulum egestas accumsan lacus. Sed felis ipsum, euismod quis justo quis, tristique elementum tellus.</p>
+
+                        <p>Aenean vulputate nulla lorem, in vestibulum ante sodales a. Aenean nec lacus risus. Donec hendrerit, augue a vestibulum mattis, justo felis imperdiet metus, sed rhoncus odio odio sit amet odio. Maecenas ut risus arcu. In eros neque, maximus lacinia consequat ut, luctus ut sem. Nulla facilisi. Nullam venenatis eros quis sem cursus viverra vitae ut magna.</p>
+                    </div>
+                </div>
+                <div class="row" id="previous-articles">
+                    <div class="col-md-4 old-article">
+                        <h3>New York City</h3>
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#content2">Preview Article</button>
+                        <div id="content2" class="collapse">
+                            <p>he weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless crew the Minnow would be lost. the Minnow would be lost? The mate was...<a href="nyc-page/index.html">continue</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 old-article">
+                        <h3>Vancouver</h3>
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#content3">Preview Article</button>
+                        <div id="content3" class="collapse">
+                            <p>Five passengers set sail that day for a three hour tour a three hour tour. I have always wanted to have a neighbor just like you....<a href="vancover-page/-page/index.html">continue</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 old-article">
+                        <h3>New Orleans</h3>
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#content4">Preview Article</button>
+                        <div id="content4" class="collapse">
+                            <p>I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you. The ship set ground on the shore of this uncharted desert isle with...<a href="nola-page/index.html">continue</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-muted text-center" id="footer">
+            <div class="col-xs-4">
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4">
+                <p>Copyright 2017</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+<!--Boostrap JavaScript Links  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+
+</html>
